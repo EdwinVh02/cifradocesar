@@ -22,16 +22,20 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         text-align: center;
-        font-size: 30px;
       }
 
-      label {
+      .container h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .container label {
         display: block;
         font-weight: bold;
         margin-bottom: 5px;
       }
 
-      input[type="text"] {
+      .container input[type="text"] {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
@@ -39,7 +43,7 @@
         border-radius: 3px;
       }
 
-      button {
+      .container button {
         padding: 10px 20px;
         background-color: #007bff;
         color: #fff;
@@ -48,13 +52,14 @@
         cursor: pointer;
       }
 
-      button:hover {
+      .container button:hover {
         background-color: #0056b3;
       }
     </style>
   </head>
   <body>
     <div class="container">
+      <h1>Cifrado César</h1>
       <label>Texto a cifrar</label>
       <input
         id="textoACifrar"
